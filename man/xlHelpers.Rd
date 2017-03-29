@@ -7,7 +7,7 @@
 \alias{xlSQLIn}
 \title{Tiny helpers}
 \usage{
-xlTxtDate(date_format = "\%Y\%m\%d")
+xlTxtDate(date = Sys.Date(), date_format = "\%Y\%m\%d")
 
 xlPct(num, digits = 2, num_format = "f", ...)
 
@@ -17,6 +17,8 @@ xlAddCommas(num, big.mark = ",", num_format = "d",
 xlSQLIn(in_values)
 }
 \arguments{
+\item{date}{A date vector to be formated, default \code{Sys.Date()} for today's date.}
+
 \item{date_format}{A format string for date, default \code{'\%Y\%m\%d'}
 yielding e.g. \code{20171231}.}
 
