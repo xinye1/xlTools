@@ -1,6 +1,6 @@
 Package: xltools
 Type: Package
-Title: xinye Li's R Toolkit
+Title: Xinye Li's R Toolkit
 Version: 0.1.0
 Authors@R: person('Xinye', 'Li', email = 'lixinye@gmail.com',
   role = c('aut', 'cre'))

@@ -6,7 +6,8 @@
 #' transformed vectors / strings with specific formats that are common
 #' in day to day daa manipulations.
 #'
-#' @param date_format A format string for date, default \code{'\%Y\%m\%d'}
+#' @param date A date vector to be formated, default \code{Sys.Date()} for today's date.
+#' @param date_format A format string for date, default \code{\%Y\%m\%d}
 #'   yielding e.g. \code{20171231}.
 #' @param num Numeric vector, to be transformed into string vector of various formats.
 #' @param digits Integer for the number of digits after decimal places in \code{xlPct}
@@ -29,7 +30,7 @@
 #'
 #' @rdname xlHelpers
 #' @export
-xlTxtDate <- function(date_format = '%Y%m%d') {
+xlTxtDate <- function(date = Sys.Date(), date_format = '%Y%m%d') {
   return(format(Sys.Date(), format = date_format))
 }
 

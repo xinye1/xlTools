@@ -19,7 +19,7 @@ xlSQLIn(in_values)
 \arguments{
 \item{date}{A date vector to be formated, default \code{Sys.Date()} for today's date.}
 
-\item{date_format}{A format string for date, default \code{'\%Y\%m\%d'}
+\item{date_format}{A format string for date, default \code{\%Y\%m\%d}
 yielding e.g. \code{20171231}.}
 
 \item{num}{Numeric vector, to be transformed into string vector of various formats.}
