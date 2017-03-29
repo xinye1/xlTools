@@ -18,18 +18,22 @@ xlSQLIn(in_values)
 }
 \arguments{
 \item{date_format}{A format string for date, default \code{'\%Y\%m\%d'}
-yielding \code{20171231}.}
+yielding e.g. \code{20171231}.}
 
-\item{num}{Numeric vector, to be transformed into string vector of various formats}
+\item{num}{Numeric vector, to be transformed into string vector of various formats.}
 
-\item{digits}{Integer for the number of digits after decimal places in \code{xlPct} function}
+\item{digits}{Integer for the number of digits after decimal places in \code{xlPct}
+function.}
 
 \item{num_format}{Single length string for numerical conversion format
 in \code{xlPct} and \code{xlAddCommas}.}
 
 \item{...}{Additional arguments passed to \code{xlPct}, \code{xlAddCommas} etc..}
 
-\item{big.mark, preserve.width}{parameters for \code{xlAddCommas} specifically}
+\item{big.mark}{the symbol for separating digits, using \code{','} as the default.}
+
+\item{preserve.width}{parameters for \code{xlAddCommas} for saving additional
+spaces for output string.}
 
 \item{in_values}{A vector of any kind, to be transformed into a string separated by
 commas for an 'in statement' as part of a SQL query.}

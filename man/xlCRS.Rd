@@ -7,7 +7,7 @@
 xlCRS(system = "wgs84")
 }
 \arguments{
-\item{system}{A string, either \code{'wgs84'} (default), \code{'bng'} or \code{'google'}.}
+\item{system}{A string, either \code{wgs84} (default), \code{bng} or \code{google}.}
 }
 \value{
 A CRS (coordinate reference system) object from calling \code{\link{CRS}}.

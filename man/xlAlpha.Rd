@@ -15,7 +15,7 @@ A vector of the same length, 2-character string representing the
 hexadecimal value.
 }
 \description{
-\code{ee_alpha} returns the hexadecimal values of numeric opacity.
+Returns the hexadecimal values of numeric opacity.
 }
 \details{
 This is a function based on HTML colour opacity. Opacity is the hex value
