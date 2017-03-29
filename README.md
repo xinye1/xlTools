@@ -1,5 +1,5 @@
-# xlTools
-Xinye Li's R Toolkit, an R package with useful custom functions.
+# xltools
+Xinye Li's R Toolkit, an R package with useful custom functions, commands and some constants.
 
 May evolve to include other things too.
 
