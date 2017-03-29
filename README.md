@@ -6,5 +6,5 @@ May evolve to include other things too.
 To install run
 
 ```r
-devtools::install_github('xinye1/xlTools')
+devtools::install_github('xinye1/xltools')
 ```
