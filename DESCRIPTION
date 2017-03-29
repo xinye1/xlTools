@@ -1,0 +1,29 @@
+Package: xltools
+Type: Package
+Title: xinye Li's R Toolkit
+Version: 0.1.0
+Authors@R: person('Xinye', 'Li', email = 'lixinye@gmail.com',
+  role = c('aut', 'cre'))
+Description: This is a pack of useful functions for xinye Li's daily use,
+    authored also collected from all over the place! If a function or a piece
+    of code is collected from someone else it will be referenced clearly.
+    The package includes: calculations (e.g. finding the week
+    commencing date), common commands (e.g. database connections), 
+    constants (e.g. EPSG projection CRS objects), and 
+    other useful datasets or sample data.
+Imports:
+    dplyr,
+    RODBC,
+    sp
+Suggests:
+    knitr,
+    devtools,
+    roxygen2,
+    testthat
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/xinye1/xlTools/
+BugReports: https://github.com/xinye1/xlTools/issues
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
