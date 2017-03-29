@@ -4,7 +4,7 @@
 #'
 #'
 #' @param date Date value for which the week start date can be found.
-#'   Default is \code{Sys.Date()}
+#'   Default is \code{\link{Sys.Date}}
 #' @param pre_wk Integer for the number of weeks prior to the lookup date.
 #'   Default is 0, no shifting of the week.
 #' @param wk_start Integer, possible values are 1 - 7, correspnoding to Monday to Sunday as
@@ -18,6 +18,7 @@
 #' xlWC(as.Date('2017-01-01'), pre_wk = 2, wk_start = 7)
 #'
 #'
+#' @import dplyr
 #' @export
 xlWC <- function(date = Sys.Date(), pre_wk = 0, wk_start = 1) {
   weekday <- date %>% as.POSIXlt %>% '$'(wday)

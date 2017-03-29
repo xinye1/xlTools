@@ -8,7 +8,7 @@ xlWC(date = Sys.Date(), pre_wk = 0, wk_start = 1)
 }
 \arguments{
 \item{date}{Date value for which the week start date can be found.
-Default is \code{Sys.Date()}}
+Default is \code{\link{Sys.Date}}}
 
 \item{pre_wk}{Integer for the number of weeks prior to the lookup date.
 Default is 0, no shifting of the week.}
