@@ -9,6 +9,7 @@
 #'   Default is 0, no shifting of the week.
 #' @param wk_start Integer, possible values are 1 - 7, correspnoding to Monday to Sunday as
 #'   the start of the week. Default is 1 for Monday.
+#' @param format A string for date output format, couuld be e.g. \code{'\%Y\%m\%d'}.
 #'
 #' @examples
 #' # Get the close Monday before today
@@ -20,9 +21,13 @@
 #'
 #' @import dplyr
 #' @export
-xlWC <- function(date = Sys.Date(), pre_wk = 0, wk_start = 1) {
+xlWC <- function(date = Sys.Date(), pre_wk = 0, wk_start = 1, format = NULL) {
   weekday <- date %>% as.POSIXlt %>% '$'(wday)
   weekday[weekday == 0] <- 7
   weekday <- (weekday - wk_start) %% 7
-  return(date - weekday - pre_wk * 7)
+  wc <- date - weekday - pre_wk * 7
+  if (!is.null(format)) {
+    wc <- format(wc, format = format)
+  }
+  return(wc)
 }
