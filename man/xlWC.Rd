@@ -15,7 +15,6 @@ Default is 0, no shifting of the week.}
 
 \item{wk_start}{Integer, possible values are 1 - 7, correspnoding to Monday to Sunday as
 the start of the week. Default is 1 for Monday.}
-
 \item{format}{A string for date output format, could be e.g. \code{'\%Y\%m\%d'}. If left
 NULL then the output is of \code{Date} class.}
 }

@@ -11,11 +11,6 @@
 #'   the start of the week. Default is 1 for Monday.
 #' @param format A string for date output format, could be e.g. \code{'\%Y\%m\%d'}. If left
 #' NULL then the output is of \code{Date} class.
-#'
-#' @examples
-#' # Get the close Monday before today
-#' xlWC()
-#'
 #' # Get the Sunday before 2 weeks prior to 1st Jan 2017
 #' xlWC(as.Date('2017-01-01'), pre_wk = 2, wk_start = 7)
 #'
