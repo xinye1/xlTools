@@ -13,7 +13,10 @@ Description: This is a pack of useful functions for xinye Li's daily use,
     other useful datasets or sample data.
 Imports:
     dplyr,
+    ggplot2,
+    scales,
     RODBC,
+    tidyr,
     sp
 Suggests:
     knitr,
