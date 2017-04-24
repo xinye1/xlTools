@@ -57,7 +57,7 @@
 #' and the function code is taken from {https://github.com/ricardo-bion/ggradar}.
 
 
-ggradar <- function(
+xlGGRadar <- function(
   plot.data,
   font.radar = "Circular Air Light",
   values.radar = c("0%", "50%", "100%"),
