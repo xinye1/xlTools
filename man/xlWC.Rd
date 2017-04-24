@@ -15,18 +15,12 @@ Default is 0, no shifting of the week.}
 
 \item{wk_start}{Integer, possible values are 1 - 7, correspnoding to Monday to Sunday as
 the start of the week. Default is 1 for Monday.}
+
 \item{format}{A string for date output format, could be e.g. \code{'\%Y\%m\%d'}. If left
-NULL then the output is of \code{Date} class.}
+NULL then the output is of \code{Date} class.
+# Get the Sunday before 2 weeks prior to 1st Jan 2017
+xlWC(as.Date('2017-01-01'), pre_wk = 2, wk_start = 7)}
 }
 \description{
 Find the week commencing of a date, given a specific day as the start of week.
-}
-\examples{
-# Get the close Monday before today
-xlWC()
-
-# Get the Sunday before 2 weeks prior to 1st Jan 2017
-xlWC(as.Date('2017-01-01'), pre_wk = 2, wk_start = 7)
-
-
 }
