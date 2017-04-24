@@ -105,7 +105,7 @@ Scaling factor is defined relative to the circle diameter (grid.max-centre.y).
 \references{
 Most of the code and documentation is from
 \url{http://rstudio-pubs-static.s3.amazonaws.com/5795_e6e6411731bb4f1b9cc7eb49499c2082.html},
-and the function code is taken from {https://github.com/ricardo-bion/ggradar}.
+and the function code is taken from \url{https://github.com/ricardo-bion/ggradar}.
 }
 \author{
 Ricardo Bion
