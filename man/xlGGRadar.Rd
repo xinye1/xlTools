@@ -98,14 +98,14 @@ an htmlwidget built by \href{https://github.com/timelyportfolio}{timelyportfolio
 
 \strong{Plot extent} - parameters to rescale the extent of the plot vertically and horizontally, in order to
 allow for ggplot default settings placing parts of axis text labels outside of plot area.
-Scaling factor is defined relative to the circle diameter (grid.max-centre.y).
+Scaling factor is defined relative to the circle diameter (\code{grid.max - centre.y}).
 
 \strong{Grid lines} - includes separate controls for the appearance of some aspects the 'minimum', 'average' and 'maximum' grid lines.
 }
 \references{
 Most of the code and documentation is from
 \url{http://rstudio-pubs-static.s3.amazonaws.com/5795_e6e6411731bb4f1b9cc7eb49499c2082.html},
-and the function code is taken from {https://github.com/ricardo-bion/ggradar}.
+and the function code is taken from \url{https://github.com/ricardo-bion/ggradar}.
 }
 \author{
 Ricardo Bion
