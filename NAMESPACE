@@ -3,6 +3,8 @@
 export(xlAddCommas)
 export(xlAlpha)
 export(xlCRS)
+export(xlColPal)
+export(xlColPalDisp)
 export(xlConnPostgres)
 export(xlConnSQLServ)
 export(xlEarthRadius)
