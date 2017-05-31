@@ -53,7 +53,5 @@ xlColPal(c('1'))                        # error, numeric should not be quoted
 }
 }
 \references{
-Wipro colours are taken from
-the \href{https://wipro365-my.sharepoint.com/personal/scshekar_wipro_com/Documents/Analytics%20-%20Overview%20-%202017.pptx?web=1}{
-internal template}
+Wipro colours are taken from the internal template https://wipro365-my.sharepoint.com/personal/scshekar_wipro_com/Documents/Analytics%20-%20Overview%20-%202017.pptx?web=1
 }
