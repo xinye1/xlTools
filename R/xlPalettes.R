@@ -94,7 +94,7 @@ xlColPal <- function(cols = NULL, palette = "wipro", alpha = 1) {
   if (any(sapply(cols, function(x) {
     !x %in% c(seq_along(all_cols), names(all_cols))
   }))) {
-    stop("For the palette ", pal_name,
+    stop("For the palette ", palette,
       ", cols should be a vector in either 1:", length(all_cols),
       ", or in the following names: ",
       paste(names(all_cols), collapse = ', '))
