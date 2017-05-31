@@ -42,7 +42,6 @@ xlRgbtoHex <- function(rgb_list, max_col_val = 255, col_names = names(rgb_list),
 #' @references
 #' Wipro colours are taken from the \href{https://wipro365-my.sharepoint.com/personal/scshekar_wipro_com/Documents/Analytics - Overview - 2017.pptx?web=1}{internal template}
 #'
-#'
 #' @rdname xlPalettes
 #' @export
 #'
