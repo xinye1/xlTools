@@ -25,9 +25,9 @@ xlRgbtoHex <- function(rgb_list, max_col_val = 255, col_names = names(rgb_list),
 #'
 #' Currently the available palettes are as follow:
 #' \itemize{
-#'  \item \code{"ee"}: EE colours, from the official internal branding document.
+#'  \item{\code{ee}}: EE colours, from the official internal branding document.
 #'  Internally the colours are in the list \code{ee_hex_cols} in hexadecimal format.
-#'  \item \code{"wipro"}: Wipro colours, from the initial template (see Reference below).
+#'  \item{\code{wipro}}: Wipro colours, from the initial template (see Reference below).
 #'  Internally the colours are in the list \code{wipro_rgb_cols} in RGB format.
 #' }
 #'
@@ -40,9 +40,8 @@ xlRgbtoHex <- function(rgb_list, max_col_val = 255, col_names = names(rgb_list),
 #' or \code{\link{img}} for \code{\link{xlColPalDisp}}.
 #'
 #' @references
-#' Wipro colours are taken from
-#' the \href{https://wipro365-my.sharepoint.com/personal/scshekar_wipro_com/Documents/Analytics%20-%20Overview%20-%202017.pptx?web=1}{
-#' internal template}
+#' Wipro colours are taken from the \href{https://wipro365-my.sharepoint.com/personal/scshekar_wipro_com/Documents/Analytics - Overview - 2017.pptx?web=1}{internal template}
+#'
 #'
 #' @rdname xlPalettes
 #' @export
