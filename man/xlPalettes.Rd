@@ -15,7 +15,7 @@ in the palette specified by \code{palette}.}
 
 \item{palette}{a string, the colour palette name.}
 
-\item{alpha}{a number between \code{[0, 1]} for the opacity, 0 being opac.}
+\item{alpha}{a number between \code{[0, 1]} for the opacity, 1 being completely opaque.}
 
 \item{...}{parameters passed to either \code{\link{rgb}} for \code{\link{xlColPal}},
 or \code{\link{img}} for \code{\link{xlColPalDisp}}.}

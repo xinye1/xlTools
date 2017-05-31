@@ -35,7 +35,7 @@ xlRgbtoHex <- function(rgb_list, max_col_val = 255, col_names = names(rgb_list),
 #' @param cols character or numeric vector for the names or the indices of colours
 #' in the palette specified by \code{palette}.
 #' @param palette a string, the colour palette name.
-#' @param alpha a number between \code{[0, 1]} for the opacity, 0 being opac.
+#' @param alpha a number between \code{[0, 1]} for the opacity, 1 being completely opaque.
 #' @param ... parameters passed to either \code{\link{rgb}} for \code{\link{xlColPal}},
 #' or \code{\link{img}} for \code{\link{xlColPalDisp}}.
 #'
