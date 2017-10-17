@@ -3,6 +3,7 @@
 export(xlAddCommas)
 export(xlAlpha)
 export(xlCRS)
+export(xlCap)
 export(xlColPal)
 export(xlColPalDisp)
 export(xlConnPostgres)
